@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+.header_bar {
+  height: 50px;
+  padding: 10px 10px;
+  background-color: #9370d8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_bar h1 {
+  width: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.user_nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+
