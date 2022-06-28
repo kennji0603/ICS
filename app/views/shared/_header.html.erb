@@ -1,0 +1,13 @@
+<header class="header">
+      <div class="header_bar">
+        <h1><a href="/">ICS</a></h1>
+          <div class="user_nav">
+            <div class="user_info">
+              <%= link_to current_user.company_name, "/users/#{current_user.id}" %>
+             </div>     
+            <div class="user_logout">        
+              <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+            </div>      
+          </div>
+      </div>
+</header>
