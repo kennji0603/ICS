@@ -1,5 +1,5 @@
 .account-page .account-page__inner {
-  width: 980px;
+  width: 700px;
   margin: 60px auto;
   padding: 60px;
   background-color: #fff;
@@ -26,7 +26,7 @@
   display: block;
   width: 60px;
   margin-top: 5px;
-  border-bottom: 1px solid #38aef0;
+  
 }
 .account-page .account-page__header h5 {
   margin-bottom: 20px;
@@ -70,27 +70,25 @@
   float: left;
   margin-top: 20px;
   color: #fff;
-  background-color: #38aef0;
-}
-.account-page .field-label .field_with_errors {
-  display: inline-block;
-  color: #d65f4c;
-  font-weight: 400;
-}
-.account-page .field-input .field_with_errors {
-  position: relative;
-}
-.account-page .field-input .field_with_errors:after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  width: 5px;
-  background-color: #d65f4c;
+  background-color: red;
 }
 
-.sign-up {
-  text-decoration: none;
+.form-text {
+  font-size: 14px;
+  font-weight: bold;
 }
+
+.form-text-wrap {
+  width: 100%;
+  height: 20%;
+}
+
+.indispensable {
+  background-color: red;
+  border: 1px solid red;
+  color: white;
+  padding: 3px;
+}
+
+
+

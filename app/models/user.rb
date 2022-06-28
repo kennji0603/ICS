@@ -6,7 +6,7 @@ class User < ApplicationRecord
          
          with_options presence: true do
           validates :company_name
-          validates :phone_number, format: { with: /\A\d{10,11}\z/ }
+          validates :phone_number, format: { with: /\A\d{10,11}\z/, message: 'は半角数字で入力してください' }
          end
 
 end
